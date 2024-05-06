@@ -1,0 +1,48 @@
+nav li{ /* aqui eu modifico apenas a lista de links */
+    display: inline; /* coloca os links do navegador em linha */
+    margin: 14rem; /* espaço entre os links */
+}
+
+nav a{ /* aqui eu modifico apenas as palavras ancoradas */
+    text-decoration: none;/* tira a linha das palavras ancoradas */
+    font-size: 2.0rem;/* aumenta a letra da as palavras ancoradas */
+    color: rgb(255, 242, 65);
+
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(11, 10, 85) , rgb(6, 17, 170));
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-container {
+    width: 500px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px;
+}
